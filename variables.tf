@@ -14,17 +14,17 @@ variable "location" {
 }
 
 variable "resource_group_name" {
-  default = "5524-RG"
+  default = "7297-RG"
 }
 
 variable "vnet_name" {
-  default = "5524-VNET"
+  default = "7297-VNET"
 }
 
 variable "subnet_name" {
-  default = "5524-SUBNET"
+  default = "7297-SUBNET"
 }
 
 variable "nsg_name" {
-  default = "5524-NSG"
+  default = "7297-NSG"
 }

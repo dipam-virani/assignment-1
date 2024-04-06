@@ -6,7 +6,7 @@ variable  "common_tags" {}
 
 variable "vnet_name" {
   type    = string
-  default = "5524-vnet"
+  default = "7297-vnet"
 }
 
 variable "vnet_address_space" {
@@ -15,7 +15,7 @@ variable "vnet_address_space" {
 
 variable "subnet_name" {
   type    = string
-  default = "5524-subnet"
+  default = "7297-subnet"
 }
 
 variable "subnet_prefixes" {
@@ -24,5 +24,5 @@ variable "subnet_prefixes" {
 
 variable "nsg_name" {
   type    = string
-  default = "5524-nsg"
+  default = "7297-nsg"
 }

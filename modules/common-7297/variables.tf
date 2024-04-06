@@ -5,13 +5,13 @@ variable "location" {}
 variable  "common_tags" {}
 
 variable "log_analytics_workspace_name" {
- default = "5524-log-analysis-workspace"
+ default = "7297-log-analysis-workspace"
 }
 
 variable "recovery_services_vault_name" {
- default = "Vault5524"
+ default = "Vault7297"
 }
 
 variable "storage_account_name" {
- default = "5524storageaccnew"
+ default = "7297storageaccnew"
 }

@@ -9,5 +9,5 @@ variable "linux_vm_nic_ids" {}
 variable "linux_vm_name" {}
 
 variable "loadbalancer-name" {
-  default = "5524-loadbalancer"
+  default = "7297-loadbalancer"
 }

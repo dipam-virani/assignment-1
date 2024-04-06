@@ -13,15 +13,15 @@ variable "instance_count" {
 }
 
 variable "prefix" {
-  default = "huzaifa-wvm-dns"
+  default = "dipam-wvm-dns"
 }
 
 variable "admin_username" {
-  default = "huzaifa"
+  default = "dipam"
 }
 
 variable "admin_password" {
-  default = "Huzaifa@786"
+  default = "dipam@123"
 }
 
 variable "windows_size" {
@@ -29,7 +29,7 @@ variable "windows_size" {
 }
 
 variable "windows_name" {
-  default =  "windows-5524"
+  default =  "windows-7297"
 }
 
 variable "win_storage_account_type" {

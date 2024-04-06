@@ -9,7 +9,7 @@ variable "subnet_id" {}
 variable "storage_account_uri" {}
 
 variable "prefix" {
-  default = "linux-5524"
+  default = "linux-7297"
 }
 
 variable "instance_count" {
@@ -21,15 +21,15 @@ variable "linux_size" {
 }
 
 variable "admin_username" {
-  default = "huzaifa"
+  default = "dipam"
 }
 
 variable "public_key_path" {
-  default = "/home/huzaifaunix/.ssh/id_rsa.pub"
+  default = "../../../.ssh/id_rsa.pub"
 }
 
 variable "private_key_path" {
-  default = "/home/huzaifaunix/.ssh/id_rsa"
+  default = "../../../.ssh/id_rsa"
 }
 
 variable "os_disk_storage_account_type" {

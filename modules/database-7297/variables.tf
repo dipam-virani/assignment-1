@@ -13,7 +13,7 @@ variable "postgresql_version" {
 }
 
 variable "administrator_login" {
-    default = "huzaifa"
+    default = "dipam"
 }
 
 variable "administrator_login_password" {
